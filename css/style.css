@@ -8,41 +8,41 @@ body{
      
      background-color: #fff;
  }
-#nav  {
+.nav  {
     
     display: flex;   
     justify-content: space-evenly;
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
-#nav p{
+.nav p{
     margin: 5px 0px 5px 0px;
     font-size: 9px;
 }
-#container{
+.container{
     background-image: url("../image/bg_img2.jpg");
     
      
 }
 
  .right-content{
-     float: right;
-     
+      float: right;
+      
      background-color: rgb(223, 247, 9);
     
  }
  .left-content{
-     
+    margin-left: 20px;
      clear: both;
  }
  
  .left-content h3{
     font-size: 13px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 30px;
  }
  .left-content h1{
     font-size: 30px;
-    margin: 9px 0px 0px 19px;
+
  }
  .good{
     text-align: center;
